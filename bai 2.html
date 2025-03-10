@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<form method="post">
+<p><b>Đăng ký tài khoản</b></p>
+    <fieldset>
+        <legend>Thông tin cá nhân</legend>
+        Họ và tên:<input type="text" name="Họ và tên" placeholder="Họ và tên" size="20"> <br> <br>
+        Email:<input type="Text" name="Email" placeholder="example@gmail.com" size="20"> <br> <br>
+        Số điện thoại: <input type="text" name="Số điện thoại" placeholder="Nhập số điện thoại" size="20"> <br> <br>
+        Mật khẩu: <input type="text" name="Mật khẩu" size="20"> <br> <br>
+        Giới tính:
+        <input type="radio" name="Nam"> Nam
+        <input type="radio" name="Nữ"> Nữ
+        <input type="radio" name="Khac"> Khác
+    </fieldset>
+    <fieldset>
+        <legend>Thông tin bổ sung</legend>
+        Ngày sinh: <input tupe="date" name="Ngày sinh" size="15"> <br> <br>
+        Nghề nghiệp:<select>
+        <option>sinh viên</option>
+        <option>Kỹ sư</option>
+        <option>Bác sĩ</option>
+    </select>
+    </fieldset>
+    <input type="submit" value="Đăng ký">
+    <input type="reset" value="Xóa">
+</form>
 </body>
 </html>
